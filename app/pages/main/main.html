@@ -1,0 +1,39 @@
+﻿<ion-header>
+    <ion-navbar>
+        <button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="main-page">
+    <ion-slides pager>       
+        <ion-slide>
+            <ion-list>
+
+                <figure item-left *ngIf="user.picture">
+                    <img class="loading" src="img/loading.gif" *ngIf="loading" />
+                    <img src="{{user.picture}}">
+                </figure>
+                <h2>Welcome</h2>
+                <h1>{{user.name}}</h1>
+            </ion-list>
+        </ion-slide>
+        <ion-slide>
+            <ion-list>
+
+                Slide #2
+
+            </ion-list>
+        </ion-slide>
+        <ion-slide>
+            <ion-list>
+
+                Slide #3
+
+            </ion-list>
+        </ion-slide>
+    </ion-slides>
+
+    
+</ion-content>

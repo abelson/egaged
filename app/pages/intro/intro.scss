@@ -1,0 +1,19 @@
+﻿.hello {
+    text-align: center;
+    font-size: 36px;
+    height: 265px;
+    color: green;
+}
+.mouth {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 120px;
+  width: 160px;
+  margin: 0 auto;
+  border-bottom: 8px solid #222;
+  border-radius: 180px / 100px;
+  border-color: green;
+}
